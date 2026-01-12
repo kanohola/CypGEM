@@ -6,9 +6,9 @@
 
 The model framework integrates three key components to capture complex enzyme-substrate interactions:
 
-* [cite_start]**Edge-Enhanced Backbone:** Incorporates a "Dynamic Edge Update" mechanism within the Graph Transformer blocks to explicitly model the electronic evolution of chemical bonds (e.g., bond cleavage) during metabolic reactions.
-* [cite_start]**Geometry-Aware Global Layer:** Features a "Global Transformer Layer" that fuses Shortest Path Distance (SPD) with 3D spatial information (encoded via Gaussian RBF) to effectively capture long-range steric hindrance and conformational constraints.
-* [cite_start]**Multi-Scale Readout:** The final prediction aggregates fine-grained node features, local edge contexts, and global molecular representations to ensure high precision.
+**Edge-Enhanced Backbone:** Incorporates a "Dynamic Edge Update" mechanism within the Graph Transformer blocks to explicitly model the electronic evolution of chemical bonds (e.g., bond cleavage) during metabolic reactions.
+**Geometry-Aware Global Layer:** Features a "Global Transformer Layer" that fuses Shortest Path Distance (SPD) with 3D spatial information (encoded via Gaussian RBF) to effectively capture long-range steric hindrance and conformational constraints.
+**Multi-Scale Readout:** The final prediction aggregates fine-grained node features, local edge contexts, and global molecular representations to ensure high precision.
 
 ## 🚀 Usage
 
