@@ -20,16 +20,15 @@ You can use the provided script `Predict_by_CYP-GEMSite.py` to predict SoMs for 
 
 ```bash
 python Predict_by_CYP-GEMSite.py \
-  --model ./checkpoints/best_model.pt \
-  --input ./data/test_molecules.sdf \
-  --output_dir ./results \
-  --threshold 0.5
-
+  --model ./Model/CYP-GEMSite.pt \
+  --input ./Data/External_test_set.sdf \
+  --output_dir ./results 
+```
 ### Arguments
 * `--model`: Path to the pre-trained model weights (`.pt` file).
-* `--input`: Input file path. Supports `.sdf` files, `.txt` files containing SMILES, or a single SMILES string.
+* `--input`: Input file path. Supports `.sdf` files or a single SMILES string.
 * `--output_dir`: Directory to save prediction results (CSV tables and visualized PNG images).
-* `--threshold`: Probability threshold for identifying a Site of Metabolism (Default: 0.5).
+* `--threshold`: Probability threshold for identifying a Site of Metabolism (Default: 0.6452).
 
 ## 📂 Datasets
 
