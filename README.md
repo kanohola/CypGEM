@@ -1,6 +1,6 @@
-# CYP-GEMSite
+# GEMCyp
 
-CYP-GEMSite is a geometry-aware and edge-enhanced Graph Transformer model designed for the accurate prediction of Cytochrome P450 (CYP450)-mediated Sites of Metabolism (SoMs).
+GEMCyp is a geometry-aware and edge-enhanced Graph Transformer model designed for the accurate prediction of Cytochrome P450 (CYP450)-mediated Sites of Metabolism (SoMs).
 
 ## 🧠 Model Architecture
 
@@ -14,14 +14,14 @@ The model framework integrates three key components to predict potential SoMs:
 
 ## 🚀 Usage
 
-You can use the provided script `Predict_by_CYP-GEMSite.py` to predict SoMs for new molecules. The script handles 3D conformer generation and feature extraction automatically.
+You can use the provided script `Predict_by_GEMCyp.py` to predict SoMs for new molecules. The script handles 3D conformer generation and feature extraction automatically.
 Environment configuration details can be found in env.txt. Python version is 3.9.20.
 
 ### Command Example
 
 ```bash
-python Predict_by_CYP-GEMSite.py \
-  --model ./Model/CYP-GEMSite.pt \
+python Predict_by_GEMCyp.py \
+  --model ./Model/GEMCyp.pt \
   --input ./Data/External_test_set.sdf \
   --output_dir ./results 
 ```
