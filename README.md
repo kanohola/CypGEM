@@ -33,4 +33,5 @@ python Predict_by_CypGEM.py \
 ## 📂 Datasets
 
 * **External Test Set:** The independent external validation set for this project is located at `external_testset.sdf`.
+* **Case Study:** FDA-approved drugs in case study are located at `FDA_approved_drugs.csv`.
 * **Training Data Source:** The `zaretzki_original.sdf` file used in this study is derived from the work of Li et al. and is available at: https://github.com/liyigerry/GraphCySoM.
